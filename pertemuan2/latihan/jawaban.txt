@@ -1,0 +1,13 @@
+1.pada perubahan yang saya lakukan tidak pernah terjadi eror ketika saya menjalankan file html tersebut
+
+2.setelah saya merubah code tersebut halaman akan di refresh dan di alihkan kehalaman google.co, maka meta dokumen selain berfungsi sebagai keywords untuk pencarian di search engine meta dokumen juga berfungsi untuk mengalihkan halaman dan refresh secara otomatis
+
+3. thead : berfungsi untuk kolom header/kepala pada table tersebut
+ 
+ tbody : berfungsi untuk konten bagian tengah atau isi table
+
+ tr: merupakan di gunakan untuk mendefinisikan baris pada table
+
+ th : merupakan digunakan untuk membuat judul sebuah table seperti no,dan nama
+
+ td : digunakan untuk membuat isi dari th 
