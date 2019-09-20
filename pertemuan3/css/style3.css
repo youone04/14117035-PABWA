@@ -1,0 +1,40 @@
+body{
+	background-color: #0080ff;
+	margin: 0px;
+}
+
+.header{
+	width: 100%;
+	height: 210px;
+	background-color: #6991AC;
+}
+
+.artikel1 img {
+	width: 170px;
+	height: 100px;
+	
+}
+
+.artikel1 {
+	/*background-image: url("img/bg.jpg");*/
+	background-color: #0080ff;
+	color: azure;
+	font-size: 16px;
+}
+p{
+	padding-right: 2px;
+}
+.cari{
+	
+	float: right;
+}
+
+.header ul li {
+	list-style-type: none;
+	float: right;
+	margin-right: 2px;
+}
+
+footer{
+	background-color: #F5F5F5;
+}
