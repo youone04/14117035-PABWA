@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Profil</title>
+<meta charset="utf-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+ <!-- Memanggil Boostrap CSS -->
+ <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+<!-- Menambah CSS Untuk Mengatur Website -->
+ <!-- <link rel="stylesheet" type="text/css" href="css/style.css"> -->
+ <style>
+    /* Set height of the grid so .sidenav can be 100% (adjust if needed) */
+    .row.content {height: 1100px}
+    
+    /* Set gray background color and 100% height */
+    .sidenav {
+      background-color: #f1f1f1;
+      height: 100%;
+    }
+    
+    /* Set black background color, white text and some padding */
+    footer {
+      background-color: #555;
+      color: white;
+      padding: 1px;
+    }
+
+    .active:hover {
+    	background-color: #DE4313;
+    }
+    li:hover {
+    	background-color: #DE4313;
+    }
+    
+    .p{
+    	background-color: #736EFE;
+    	padding: 5px;
+    }
+
+    .p h3 {
+    	color: white;
+    }
+    .p p {
+    	color: white
+    }
+
+    .p img {
+    	padding-top: 10px;
+    }
+
+    .o{
+    	background-color: #736EFE;
+    }
+    .q{
+    	background-color: #3CD500;
+    	height: 350px;
+    }
+
+    #img img{
+    	float: left;
+    	margin: 16px;
+    }
+    /* On small screens, set height to 'auto' for sidenav and grid */
+    @media screen and (max-width: 767px) {
+      .sidenav {
+        height: auto;
+        padding: 15px;
+      }
+      .row.content {height: auto;} 
+    }
+  </style>
+</head>
+
+
+<div class="container-fluid">
+  <div class="row content">
+    <div class="col-sm-3 sidenav">
+      <h4>Profil Yudi gunawan</h4>
+      <ul class="nav nav-pills nav-stacked">
+        <li class="active"><a href="#section1">Home</a></li>
+        <li class="profil"><a href="#section2">Profil</a></li>
+        <li><a href="#section3">About</a></li>
+        <li><a href="#section3">Picture</a></li>
+      </ul><br>
+
+      <div class="input-group">
+        <input type="text" class="form-control" placeholder="cari lainnya...">
+        <span class="input-group-btn">
+          <button class="btn btn-default" type="button">
+            <span class="glyphicon glyphicon-search"></span>
+          </button>
+        </span>
+      </div>
+    </div>
+
+    <div class="col-sm-9">
+     
+      <hr>
+      <div class="o">
+      <h2>yudi gunawan-14117035</h2>
+      <h5><span class="glyphicon glyphicon-time"></span>Bandar lampung,28-september-2019</h5>
+      <h5><span class="label label-danger">you oned</span> <span class="label label-primary">go go </span></h5><br>
+      </div>
+
+     <div class="p">
+    <div class="container-fluid bg-1 text-center">
+	<img src="img/yudi.jpg" alt="Jihadul Akbar" width="20%"
+	class="img-responsive img-circle" style="display:inline">
+	<h3>Nama saya yudi gunawan</h3>
+	</div>
+
+      <p>hallo nama saya yudi gunawan, nim 14117035 dari program studi 
+      	teknik informatika, institut teknologi sumatera, cit-cita saya adlah 
+  		menjadi seorang seniman code, yang mana ingin sekali membuat sebuah 
+  		program yang dapat memajukan negara kita,yaitu negara indonesia</p>
+  	</div>
+      <br><br>
+      
+      <div class="q">
+      <h2>Perusahaan</h2>
+      <h5><span class="glyphicon glyphicon-time"></span> Bandar lampung,28-september-2019</h5>
+      <h5><span class="label label-success">gunawan</span></h5><br>
+      <p>Membentuk badan usaha merupakan dasar penting apabila kita akan membangun suatu bisnis sendiri. Keberadaan badan usaha yang berbadan hukum dalam suatu perusahaan baik perusahaan kecil, menengah atau besar akan melindungi perusahaan dari segala tuntutan akibat aktivitas yang dijalankan oleh perusahaan tersebut.
+
+Meskipun begitu, dalam menjalankan suatu usaha tidak diwajibkan bagi seorang Pengusaha untuk mendirikan sebuah badan hukum. Hal tersebut merupakan suatu pilihan bagi Pengusaha untuk menentukan bentuk dari penyelenggaraan usaha yang cocok untuk kegiatan usaha yang dijalankannya. Namun, untuk beberapa jenis usaha tertentu yang memang diwajibkan menurut peraturan perundang-undangan harus berbentuk badan usaha yang merupakan badan hukum seperti Bank, Rumah Sakit, penyelenggara satuan pendidikan formal.
+
+Badan usaha merupakan kesatuan yuridis dan ekonomis atau kesatuan organisasi yang terdiri dari faktor-faktor produksi yang bertujuan mencari keuntungan. Badan usaha adalah rumah tangga ekonomi yang bertujuan mencari laba dengan faktor-faktor produksi.
+
+Sebuah usaha /bisnis sendiri dapat dikatakan berbadan hukum apabila memiliki “Akta Pendirian” yang disahkan oleh notaris disertai dengan tanda tangan di atas meterai dan segel.</p>
+      </div><br>
+	<div id="img">
+	<img src="img/satu.jpg" class="img-responsive margin"
+	style="width:200px" alt="Gambar">
+
+	<img src="img/satu.jpg" class="img-responsive margin"
+	style="width:200px" alt="Gambar">
+
+	<img src="img/satu.jpg" class="img-responsive margin"
+	style="width:200px" alt="Gambar">
+
+	<img src="img/satu.jpg" class="img-responsive margin"
+	style="width:200px" alt="Gambar">
+	</div>
+	 </div>
+      </div>
+    </div>
+  </div>
+</div>
+<br>
+<footer class="container-fluid">
+  <p>&copy yudi-gunawan</p>
+</footer>
+</body>
+</html>
