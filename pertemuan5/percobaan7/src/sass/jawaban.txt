@@ -1,0 +1,10 @@
+dalam percobaan yang didalamnnya terdapat operataor, jika dikompile akan menghasilkan jumlah dari operator tersebut dapat dilihat pada code di bawah
+article {
+  float: left;
+  width: 62.5%;
+}
+
+aside {
+  float: right;
+  width: 31.25%;
+}
