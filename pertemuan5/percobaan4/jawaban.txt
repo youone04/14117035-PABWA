@@ -1,0 +1,2 @@
+pada percobaan ini terdapat file main.scss dan _reset scss  dalam file main.scs terdapat printah menimport file reset, maka isi dari  reset akan 
+diimport berdama file main,scss kedalam file main.css dan disatukan menjadi satu.
