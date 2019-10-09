@@ -1,0 +1,1 @@
+pada percobaan ini code yang di tulis akan mengahasilkan css berbentuk list dan isinya akan sesuai dengan yang di definisikan di scss tersebut
