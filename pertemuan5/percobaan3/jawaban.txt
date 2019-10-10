@@ -1,0 +1,2 @@
+pada perobaan ini pada scsss terdapat variable yang isinya value sesuai kebutuhan pengguna, maka setelah dikompile dan dalam css terdapat isi value
+yang sesuai dengan isi vatiable ang telah di deklarasikan trsb
