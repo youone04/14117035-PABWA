@@ -1,0 +1,2 @@
+ apa yang dimaksud nested
+property ,nested properti merupakan propperty yang bersarang, propety dalam properti maka properti tersebut dapat digabung dan isikan valuesnya apa
