@@ -1,32 +1,32 @@
+<!-- TUGAS B. SEARCH DATA, MASUKKAN BERUPA NAMA -->
+<?php
+echo "<h1>DATA YANG DITEMUKAN</h1>";
+$cari=$_POST['cari'];
+$conn=mysqli_connect("localhost","root","");
+mysqli_select_db($conn,"mahasiswa");
+$hasil=mysqli_query($conn,"select NRP,Nama,Foto,ID_Jur from mahasiswa where nama like '%$cari%'");
 
-        <?php 
-        function query(){
-		$conn = mysqli_connect("localhost","root","","mahasiswa");
-		$querys="select * from mahasiswa";
-		$result=mysqli_query($conn,$querys);
-		$rows=[];
-		while($row=mysqli_fetch_assoc($result)){
-			$rows[]=$row;
-		}
-
-		return $rows;
-	}
-
-	function cari ($keyword){
-
-		$query = "SELECT * FROM mahasiswa
-
-				WHERE 
-
-				 nama LIKE '%$keyword%'
-
-				";
-
-			return query($query);
-
-	}
-
-
-	
-
-         ?>
+$jumlah=mysqli_num_rows($hasil);
+echo "<br>";
+echo "Ditemukan: $jumlah";
+echo "<br>";
+echo "<br>";
+while($baris=mysqli_fetch_array($hasil)){
+    echo "NIM : ";
+    echo $baris[0];
+    echo "<br>";
+    echo "Nama : ";
+    echo $baris[1];
+    echo "<br>";
+    echo "Foto :";
+    echo $baris[2];
+    echo "<br>";
+    echo "Jurusan :";
+    echo $baris[3];
+    echo "<br>";
+    echo "<br>";
+}
+?>
+<form action="tambah.php">
+    <input type ="submit" value="Menu Awal">
+</form>
